@@ -1,4 +1,4 @@
-image: ubuntu:14.04
+image: gabriele/ubuntu:14.04-git
 script:
   - apt-get install git
   - echo "Testing drone"
