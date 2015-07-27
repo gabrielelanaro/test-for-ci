@@ -1,0 +1,7 @@
+image: ubuntu:14.04
+script:
+  - echo "Testing drone"
+notify:
+  - email:
+    recipients:
+      - gabriele.lanaro@gmail.com
