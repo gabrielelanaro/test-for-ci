@@ -1,5 +1,6 @@
 image: ubuntu:14.04
 script:
+  - apt-get install git
   - echo "Testing drone"
 notify:
   - email:
