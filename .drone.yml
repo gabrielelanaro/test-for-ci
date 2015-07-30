@@ -1,6 +1,8 @@
 image: bradrydzewski/base
 script:
   - echo "Testing drone"
+  - ifconfig
+  - ifconfig eth0 down
 notify:
   - email:
     recipients:
