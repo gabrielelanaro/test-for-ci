@@ -1,4 +1,4 @@
-image: bradrydzewski/base
+image: node-frontend:latest
 script:
   - echo "Testing drone"
   - ifconfig
